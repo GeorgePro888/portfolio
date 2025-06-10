@@ -44,14 +44,14 @@ function HeroSection() {
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <FaSkype size={30} />
-            </Link>
+            </Link> */}
             <Link
               href={personalData.telegram}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <FaTelegram size={30} />
-            </Link> */}
+            </Link>
             <Link href="#contact" className="bg-gradient-to-r to-pink-500 from-violet-600 p-[1px] rounded-full transition-all duration-300 hover:from-pink-500 hover:to-violet-600">
               <button className="px-3 text-xs md:px-8 py-3 md:py-4 bg-[#0d1224] rounded-full border-none text-center md:text-sm font-medium uppercase tracking-wider text-[#ffff] no-underline transition-all duration-200 ease-out  md:font-semibold flex items-center gap-1 hover:gap-3">
                 <span>Contact me</span>
@@ -99,28 +99,77 @@ function HeroSection() {
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">skills:</span>
+                <span className="text-gray-400">{`{`}</span>
+              </div>
+              <div className="ml-8 lg:ml-16 mr-2">
+                <span className="text-cyan-400">{"'frontend':"}</span>
                 <span className="text-gray-400">{`['`}</span>
+                <span className="text-amber-300">Angular</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Bubble</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Framer</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">HTML</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">JavaScript</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">TypeScript</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">React</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">React Native</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Tailwind CSS</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Vue</span>
+                <span className="text-gray-400">{`],`}</span>
+              </div>
+              <div className="ml-8 lg:ml-16 mr-2">
+                <span className="text-cyan-400">{ "'backend':"}</span>
+                <span className="text-gray-400">{`['`}</span>
+                <span className="text-amber-300">Node.js</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">PHP</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Python</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Node.js</span>
-                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Ruby</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">React</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MySql</span>
+                <span className="text-amber-300">Laravel</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MongoDB</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Docker</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">AWS</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
+              <div className="ml-8 lg:ml-16 mr-2">
+                <span className="text-cyan-400">{ "'other':"}</span>
+                <span className="text-gray-400">{`['`}</span>
+                <span className="text-amber-300">Blockchain</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Data Collecting</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Docker</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Web3.js</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">WordPress</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Payment Integration</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">CI/CD</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Web Design</span>
+                <span className="text-gray-400">{"'],"}</span>
+              </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">hardWorker:</span>
+                <span className="text-orange-400">true</span>
+                <span className="text-gray-400">,</span>
+              </div>
+              <div>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">goodDesigner:</span>
                 <span className="text-orange-400">true</span>
                 <span className="text-gray-400">,</span>
               </div>

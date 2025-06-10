@@ -74,6 +74,10 @@ import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
 import web3js from '/public/svg/skills/web3js.svg';
 import blockchain from '/public/svg/skills/blockchain.svg';
+import nodejs from '/public/svg/skills/nodejs-1.svg';
+import framer from '/public/svg/skills/framer-motion.svg';
+import bubble from '/public/svg/skills/bubble-io.svg';
+import laravel from '/public/svg/skills/laravel-2.svg';
 
 
 export const skillsImage = (skill) => {
@@ -99,6 +103,8 @@ export const skillsImage = (skill) => {
       return angular;
     case 'javascript':
       return javascript;
+    case 'node js':
+      return nodejs;
     case 'next js':
       return nextJS;
     case 'nuxt js':
@@ -231,6 +237,12 @@ export const skillsImage = (skill) => {
       return web3js;
     case 'blockchain':
       return blockchain;
+    case 'laravel':
+      return laravel;
+    case 'bubble':
+      return bubble;
+    case 'framer':
+      return framer;
     default:
       break;
   }
